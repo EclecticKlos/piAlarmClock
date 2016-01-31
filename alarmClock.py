@@ -8,7 +8,7 @@ def job():
     subprocess.call("./alarmClockBashScript.sh")
 
 
-schedule.every().day.at("11:20").do(job)
+schedule.every().day.at("6:00").do(job)
 
 
 while True:
